@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flexbox !important;
+    gap: 25px;
+     
+  }
+ .card{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    line-height: 20px;
+    
+ }
+ .card-body{
+    background-color: rgb(182, 252, 252);
+ }
+
+.bgclr{
+    background-color: rgb(70, 140, 239);
+    padding: 15px;
+    color: aliceblue;
+
+}
+.card-title{
+    line-height: 35px;
+}
